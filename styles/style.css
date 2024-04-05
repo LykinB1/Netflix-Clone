@@ -1,0 +1,383 @@
+@font-face {
+    font-family: netflixfont;
+    src: url(../layout/fonte/netflix-sans-font/NetflixSans-Regular.otf);
+}
+
+body{
+    background-color: #000000;
+}
+
+/*Header*/
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+}
+
+#icon{
+    display: flex;
+    width: 8%;
+    height: 100px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+#icon img{
+    width: 160px;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-left: 15px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+#user{
+    display: flex;
+    width: 63%;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+#usericon{
+    width: 80px;
+    height: 80px;
+}
+
+#search{
+    width: 30px;
+}
+#dropdown{
+    width: 40px;
+}
+
+#user h3{
+    color: white;
+    
+}
+
+/*End Header*/
+
+/*First Banner*/
+
+#banner{
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/narcos.png);
+    background-size: cover;
+    color: white;
+}
+
+#title{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 500px;
+    justify-content: center;
+}
+
+#title h3{
+    font-family: netflixfont;
+    font-size: 25px;
+    margin-left: 45px;
+}
+#title h1{
+    font-family: netflixfont;
+    font-size: 120px;
+    margin-left: 20px;
+}
+
+#title h4{
+    font-family: netflixfont;
+    font-size: 18px;
+    margin-left: 45px;
+}
+#title p{
+    font-family: netflixfont;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#buttonsbanner{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 40px;
+    margin: 15px;
+    margin-left: 40px;
+    gap: 20px;
+}
+.buttonbanner{
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    background-color: #635d5d; 
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;  
+    cursor: pointer; 
+}
+
+.buttonbanner img{
+    width: 20px;
+}
+
+.buttonbanner:hover{
+    background-color: #3b3535;
+}
+
+#button1{
+    width: 100px;
+}
+#button2{
+    width: 150px;
+}
+/*End first banner*/
+
+/*Séries TV*/
+
+#seriestvtitle{
+    font-family: netflixfont;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+#seriestv{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.seriesboxs{
+    background-color: brown;
+    width: 455px;
+    height: 250px;
+}
+.seriesboxs img{
+    width: 455px;
+    height: 250px;
+}
+
+/*End Séries TV*/
+
+/*Em alta*/
+
+#emaltatitle{
+    font-family: netflixfont;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+#emalta{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.emaltaboxs{
+    background-color: brown;
+    width: 455px;
+    height: 250px;
+}
+.emaltaboxs img{
+    width: 455px;
+    height: 250px;
+}
+
+/*End Em alta*/
+
+/*Terror*/
+
+#terrortitle{
+    font-family: netflixfont;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+#terror{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.terrorboxs{
+    background-color: brown;
+    width: 455px;
+    height: 250px;
+}
+.terrorboxs img{
+    width: 455px;
+    height: 250px;
+}
+
+/*End Terror*/
+
+/*Suspense*/
+
+#suspensetitle{
+    font-family: netflixfont;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+#suspense{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.suspenseboxs{
+    background-color: brown;
+    width: 455px;
+    height: 250px;
+}
+.suspenseboxs img{
+    width: 455px;
+    height: 250px;
+}
+
+/*End Suspense*/
+
+/*Suspense*/
+
+#suspensetitle{
+    font-family: netflixfont;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+#suspense{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.suspenseboxs{
+    background-color: brown;
+    width: 455px;
+    height: 250px;
+}
+.suspenseboxs img{
+    width: 455px;
+    height: 250px;
+}
+
+/*Top da semana*/
+
+#topdasemanatitle{
+    font-family: netflixfont;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+#topdasemana{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.topdasemanaboxs{
+    background-color: brown;
+    width: 455px;
+    height: 250px;
+    margin-bottom: 60px;
+}
+.topdasemanaboxs img{
+    width: 455px;
+    height: 250px;
+}
+
+/*End Top da semana*/
+
+/*Second Banner*/
+
+#banner2{
+    width: 100%;
+    height: 650px;
+    background-image: url(../images/secondbanner.png);
+    background-size: cover;
+    color: white;
+
+    /*background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 21%, rgba(0,0,0,0.44861694677871145) 42%, rgba(0,0,0,0) 100%);*/
+}
+
+#title2{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 500px;
+    justify-content: center;
+}
+
+#title2 h3{
+    font-family: netflixfont;
+    font-size: 25px;
+    margin-left: 45px;
+}
+#title2 h1{
+    font-family: netflixfont;
+    font-size: 120px;
+    margin-left: 20px;
+}
+
+#title2 h4{
+    font-family: netflixfont;
+    font-size: 18px;
+    margin-left: 45px;
+}
+#title2 p{
+    font-family: netflixfont;
+    margin-top: 15px;
+    margin-left: 20px;
+}
