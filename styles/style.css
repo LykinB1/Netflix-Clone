@@ -169,13 +169,12 @@ header{
 }
 
 .seriesboxs{
-    background-color: brown;
-    width: 455px;
-    height: 250px;
+    width: 445px;
+    height: 240px;
 }
 .seriesboxs img{
-    width: 455px;
-    height: 250px;
+    width: 445px;
+    height: 240px;
 }
 
 /*End Séries TV*/
@@ -201,13 +200,12 @@ header{
 }
 
 .emaltaboxs{
-    background-color: brown;
-    width: 455px;
-    height: 250px;
+    width: 445px;
+    height: 240px;
 }
 .emaltaboxs img{
-    width: 455px;
-    height: 250px;
+    width: 445px;
+    height: 240px;
 }
 
 /*End Em alta*/
@@ -233,13 +231,12 @@ header{
 }
 
 .terrorboxs{
-    background-color: brown;
-    width: 455px;
-    height: 250px;
+    width: 445px;
+    height: 240px;
 }
 .terrorboxs img{
-    width: 455px;
-    height: 250px;
+    width: 445px;
+    height: 240px;
 }
 
 /*End Terror*/
@@ -265,13 +262,12 @@ header{
 }
 
 .suspenseboxs{
-    background-color: brown;
-    width: 455px;
-    height: 250px;
+    width: 445px;
+    height: 240px;
 }
 .suspenseboxs img{
-    width: 455px;
-    height: 250px;
+    width: 445px;
+    height: 240px;
 }
 
 /*End Suspense*/
@@ -297,13 +293,12 @@ header{
 }
 
 .suspenseboxs{
-    background-color: brown;
-    width: 455px;
-    height: 250px;
+    width: 445px;
+    height: 240px;
 }
 .suspenseboxs img{
-    width: 455px;
-    height: 250px;
+    width: 445px;
+    height: 240px;
 }
 
 /*Top da semana*/
@@ -327,14 +322,13 @@ header{
 }
 
 .topdasemanaboxs{
-    background-color: brown;
-    width: 455px;
-    height: 250px;
+    width: 445px;
+    height: 240px;
     margin-bottom: 60px;
 }
 .topdasemanaboxs img{
-    width: 455px;
-    height: 250px;
+    width: 445px;
+    height: 240px;
 }
 
 /*End Top da semana*/
@@ -343,21 +337,23 @@ header{
 
 #banner2{
     width: 100%;
-    height: 650px;
+    height: 750px;
     background-image: url(../images/secondbanner.png);
     background-size: cover;
     color: white;
 
-    /*background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 21%, rgba(0,0,0,0.44861694677871145) 42%, rgba(0,0,0,0) 100%);*/
 }
 
 #title2{
     display: flex;
     flex-direction: column;
-    width: 33%;
-    height: 500px;
+    width: 53%;
+    height: 100%;
     justify-content: center;
+    background-color: aqua;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 36%, rgba(0,0,0,0.5256477591036415) 61%, rgba(0,0,0,0.41360294117647056) 72%, rgba(0,0,0,0) 93%);
+    
 }
 
 #title2 h3{
@@ -380,4 +376,74 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 21%, rgba(0,0
     font-family: netflixfont;
     margin-top: 15px;
     margin-left: 20px;
+}
+/*End Second Banner*/
+
+/*Categorias*/
+
+#categoriastitle{
+    font-family: netflixfont;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+#categorias{
+    display: flex;
+    width: 100%;
+    height: 155px;
+    justify-content: center;
+    gap: 3px;
+}
+
+.categoriasbox{
+    display: flex;
+    width: 260px;
+    height: 130px;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.categoriasbox h3{
+    font-family: netflixfont;
+    color: white;
+
+}
+
+#categoriasbox1{
+    background-color: violet;
+}
+#categoriasbox2{
+    background-color: #9a50fa;
+}
+#categoriasbox3{
+    background-color: yellow;
+}
+#categoriasbox4{
+    background-color: #07f107;
+}
+#categoriasbox5{
+    background-color: salmon;
+}
+#categoriasbox6{
+    background-color: rgb(230, 167, 177);
+}
+#categoriasbox7{
+    background-color: #8d36ff;
+}
+
+/*End Categorias*/
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #1d1d1d;
+    justify-content: center;
+    align-items: center;
+    color: rgb(151, 151, 151);
 }
